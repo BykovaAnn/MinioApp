@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "MinioApp/1.0.0": {
+        "dependencies": {
+          "AWSSDK.S3": "3.3.107"
+        },
+        "runtime": {
+          "MinioApp.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.3.103.64": {
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.103.64"
+          }
+        }
+      },
+      "AWSSDK.S3/3.3.107": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.103.64"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.107.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MinioApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.3.103.64": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZR6TnzD97bAhS6WqIowFDkRNUY+2gsLfKUBdXbZfNJixsNjtHfYuC4Xz2NDG3fy3ugEqAUpQCii5IzMEaUsI+A==",
+      "path": "awssdk.core/3.3.103.64",
+      "hashPath": "awssdk.core.3.3.103.64.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.3.107": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FWJTK8EjpfW+v21V88FdwYb2LqNLPnHmir1ugRE7EhMYQDgXvy1lUauc3mSZ0yUXpzs+JzG1bmi3TWuzUaNdLg==",
+      "path": "awssdk.s3/3.3.107",
+      "hashPath": "awssdk.s3.3.3.107.nupkg.sha512"
+    }
+  }
+}

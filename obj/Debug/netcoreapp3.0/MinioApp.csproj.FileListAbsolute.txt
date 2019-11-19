@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\MinioApp\bin\Debug\netcoreapp3.0\MinioApp.exe
+C:\Users\User\source\repos\MinioApp\bin\Debug\netcoreapp3.0\MinioApp.deps.json
+C:\Users\User\source\repos\MinioApp\bin\Debug\netcoreapp3.0\MinioApp.runtimeconfig.json
+C:\Users\User\source\repos\MinioApp\bin\Debug\netcoreapp3.0\MinioApp.runtimeconfig.dev.json
+C:\Users\User\source\repos\MinioApp\bin\Debug\netcoreapp3.0\MinioApp.dll
+C:\Users\User\source\repos\MinioApp\bin\Debug\netcoreapp3.0\MinioApp.pdb
+C:\Users\User\source\repos\MinioApp\obj\Debug\netcoreapp3.0\MinioApp.csprojAssemblyReference.cache
+C:\Users\User\source\repos\MinioApp\obj\Debug\netcoreapp3.0\MinioApp.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\MinioApp\obj\Debug\netcoreapp3.0\MinioApp.AssemblyInfo.cs
+C:\Users\User\source\repos\MinioApp\obj\Debug\netcoreapp3.0\MinioApp.dll
+C:\Users\User\source\repos\MinioApp\obj\Debug\netcoreapp3.0\MinioApp.pdb
+C:\Users\User\source\repos\MinioApp\bin\Debug\netcoreapp3.0\AWSSDK.Core.dll
+C:\Users\User\source\repos\MinioApp\bin\Debug\netcoreapp3.0\AWSSDK.S3.dll
+C:\Users\User\source\repos\MinioApp\obj\Debug\netcoreapp3.0\MinioApp.csproj.CopyComplete
