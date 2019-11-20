@@ -114,7 +114,12 @@ namespace MinioApp
             try
             {
                 GetObjectResponse response = await localclient.GetObjectAsync(bucketName, keyName);
-                response.ResponseStream.CopyTo(Console.OpenStandardOutput());
+                //response.ResponseStream.CopyTo(Console.OpenStandardOutput());
+                using (FileStream fs = new FileStream(filePath, FileMode.Create)) 
+                {
+                    response.ResponseStream.CopyTo(fs);
+                    Console.WriteLine("File successfully saved in {0}", filePath);
+                }
             }
             catch (AmazonS3Exception e)
             {
