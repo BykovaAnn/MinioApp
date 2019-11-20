@@ -14,21 +14,21 @@ namespace MinioApp
         private static string serviceURL = "http://192.168.99.100:9000";
         private static AmazonS3Client localclient;
         private static readonly RegionEndpoint serverRegion = RegionEndpoint.EUWest1;
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             localclient = CreateClient();
-            Task.Run(GetAllObjectsAsync).GetAwaiter().GetResult();
+            await GetAllObjectsAsync();
             string bucketName = "bucket1";
             string keyName = "key1";
             string content = "somecontent";
-            Task.Run(() => WriteObjectAsync(bucketName, keyName, content)).GetAwaiter().GetResult();
+            await WriteObjectAsync(bucketName, keyName, content);
             keyName = "key2";
             string filePath = @"D:\Hello12.txt";
             string contentType = "text/plain";
             string title = "Title1";
-            Task.Run(() => WriteFileAsync(bucketName, keyName, filePath, contentType, title)).GetAwaiter().GetResult();
+            await WriteFileAsync(bucketName, keyName, filePath, contentType, title);
             filePath = @"D:\Hello1.txt";
-            Task.Run(() => GetFileAsync(bucketName, keyName, filePath)).GetAwaiter().GetResult();
+            await GetFileAsync(bucketName, keyName, filePath);
         }
 
         private static AmazonS3Client CreateClient()
