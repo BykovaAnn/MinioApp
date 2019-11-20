@@ -1,0 +1,9 @@
+bin
+obj
+.vs
+.vscode
+*.exe
+*.sql
+*.tmp
+*.log
+*.lock
